@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #333;
+    box-shadow: 0 0 20px #222;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+}
+
+/* Header Styles */
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+#intro {
+    font-style: italic;
+    color: #b3b3b3;
+}
+
+/* Challenge Section Styles */
+#challenge {
+    margin: 30px 0;
+}
+
+#challenge h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff6600;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    font-size: 1em;
+    background-color: #333;
+    border: 1px solid #666;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff6600;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff8533;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Badge Section Styles */
+#badges {
+    margin: 30px 0;
+}
+
+#badges a {
+    color: #66ff99;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-bottom: 1px solid #66ff99;
+}
+
+#badges a:hover {
+    color: #33ff77;
+    border-bottom: 1px solid #33ff77;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #b3b3b3;
+    font-style: italic;
+}
+
+/* Animations */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+button:hover {
+    animation: pulse 0.5s infinite;
+}
